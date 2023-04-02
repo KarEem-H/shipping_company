@@ -9,6 +9,35 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Import Comfortaa and Baloo Bhaijaan 2 fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap&subset=arabic');
+
+/* Force apply Comfortaa font to all English text */
+* {
+  font-family: 'Comfortaa', sans-serif !important;
+}
+
+/* Force apply Baloo Bhaijaan 2 font to all Arabic text */
+.arabic ,:lang(ar) *, :lang(ar) ::before, :lang(ar) ::after {
+  font-family: 'Baloo Bhaijaan 2', sans-serif !important;
+  font-weight: 700; /* Baloo Bhaijaan 2 has a bolder weight by default */
+}
+
+.language {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.language::before {
+  content: "Translate";
+  margin-right: 0.5em;
+}
+
+.fa {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 24px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
