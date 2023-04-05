@@ -457,7 +457,7 @@ h6 {
 #hero .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 3px 22px 6px 20px;
@@ -495,7 +495,7 @@ h6 {
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
 }
 
 @media (max-width: 991px) {
