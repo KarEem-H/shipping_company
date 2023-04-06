@@ -567,6 +567,11 @@ section {
   background-color: #f2faff;
 }
 
+.section-title-contact {
+  padding-top: 30px;
+  padding-bottom: 70px !important;
+  line-height: 35px;
+}
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -905,6 +910,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.text-box-3d {
+  padding-top: 15%;
+}
 .icon-box-3d {
   /* box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px; */
@@ -913,18 +922,20 @@ section {
   color: #fff;
   text-align: center;
   width: 193px;
-  font-size: 73%;
+  font-size: 90%;
   margin-right: 7%;
   padding-right: 0px;
   padding-left: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
 .services {
   padding: 2% 1.5% !important;
 }
 .image-box-3d {
-  height: 82px;
-  padding: 2% 1.5% !important;
+  height: 60%;
+  padding: 0% 2.5% !important;
 }
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
@@ -1723,7 +1734,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #0763a1;
 }
 
 #footer .footer-newsletter {
@@ -1781,7 +1792,7 @@ section {
 
 #footer .footer-top {
   padding: 5px 0 10px 0;
-  background: #37517e;
+  background: #0763a1;
   color: #fff ;
 }
 #footer .footer-top *, .footer-links * {
@@ -1882,6 +1893,7 @@ section {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
+  background-color: #0763a1 !important;
 }
 
 #footer .copyright {
